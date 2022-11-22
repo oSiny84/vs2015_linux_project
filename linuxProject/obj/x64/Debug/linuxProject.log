@@ -1,0 +1,36 @@
+﻿빌드 시작: 2022-11-22 오후 2:07:15
+     1>2 노드의 "c:\Users\osiny\OneDrive\documents\visual studio 2015\Projects\linuxProject\linuxProject\linuxProject.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>_RemoteClean:
+         Cleaning remote project directory
+       _ValidateValidArchitecture:
+         Validating architecture
+       _ValidateSources:
+         Validating sources
+       _CopySources:
+         Copying sources remotely to '127.0.0.1'
+       ClCompile:
+         Starting remote build
+         Compiling sources:
+         main.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Application Type\Linux\1.0\Linux.targets(248,5): warning : command line option ‘-fthreadsafe-statics’ is valid for C++/ObjC++ but not for C
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Application Type\Linux\1.0\Linux.targets(248,5): warning : command line option ‘-frtti’ is valid for C++/ObjC++ but not for C
+     1>C:\Users\osiny\OneDrive\Documents\Visual Studio 2015\Projects\linuxProject\linuxProject\main.c(7,6): warning : return type of ‘main’ is not ‘int’ [-Wmain]
+       Link:
+         Linking objects
+         linuxProject.vcxproj -> c:\Users\osiny\OneDrive\documents\visual studio 2015\Projects\linuxProject\linuxProject\bin\x64\Debug\linuxProject.out
+       PostBuildEvent:
+         "C:\Program Files\Putty\pscp.exe" -l root -pw root c:\Users\osiny\OneDrive\documents\visual studio 2015\Projects\linuxProject\linuxProject\bin\x64\Debug\linuxProject.out 192.168.0.110:/home/root/bpm/
+         :VCEnd
+         pscp: c:\Users\osiny\OneDrive\documents\visual: No such file or directory
+         
+         pscp: studio: No such file or directory
+         
+         pscp: 2015\Projects\linuxProject\linuxProject\bin\x64\Debug\linuxProject.out: No such file or directory
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Application Type\Linux\1.0\Linux.targets(355,5): error MSB3073: ""C:\Program Files\Putty\pscp.exe" -l root -pw root c:\Users\osiny\OneDrive\documents\visual studio 2015\Projects\linuxProject\linuxProject\bin\x64\Debug\linuxProject.out 192.168.0.110:/home/root/bpm/
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Application Type\Linux\1.0\Linux.targets(355,5): error MSB3073: :VCEnd" 명령이 종료되었습니다(코드: 1).
+     1>"c:\Users\osiny\OneDrive\documents\visual studio 2015\Projects\linuxProject\linuxProject\linuxProject.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:17.43
